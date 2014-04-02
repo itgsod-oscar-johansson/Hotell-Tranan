@@ -1,0 +1,11 @@
+body {
+    background-color: green;
+}
+
+div#topbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height:200px;
+    background-color: black;
+}
