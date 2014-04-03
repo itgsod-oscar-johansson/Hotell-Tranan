@@ -32,3 +32,12 @@ div#content {
     height:1200px;
     background-color: white;
 }
+div#menu a{
+    text-decoration: none;
+    line-height: 135px;
+    display: block;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
