@@ -31,6 +31,7 @@ div#content {
     width: 850px;
     height:1200px;
     background-color: white;
+    margin-top: 50px;
 }
 div#menu a{
     text-decoration: none;
