@@ -6,7 +6,7 @@ div#topbox {
     margin-left: auto;
     margin-right: auto;
     width: 850px;
-    height:200px;
+    height:160px;
     background-color: black;
 }
 
@@ -14,6 +14,7 @@ div#header {
     width: 100%;
     height: 100%;
     background-color: blue;
+    margin-top: 80px;
 }
 
 div#menu {
