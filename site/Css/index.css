@@ -42,3 +42,10 @@ div#menu a{
     padding-right: 50px;
     color: black;
 }
+
+
+div#menu a:hover {
+    height: 100%;
+    background-color: purple;
+    color: #666666;
+}
