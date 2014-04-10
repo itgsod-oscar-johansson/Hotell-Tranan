@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: black;
 }
 
 div#topbox {
@@ -13,8 +13,12 @@ div#topbox {
 div#header {
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: gray;
     margin-top: 80px;
+}
+
+div#header h1{
+    color: white;
 }
 
 div#menu {
@@ -30,12 +34,12 @@ div#content {
     margin-right: auto;
     width: 850px;
     height:1200px;
-    background-color: white;
+    background-color: #666;
     margin-top: 50px;
 }
 div#menu a{
     text-decoration: none;
-    line-height: 135px;
+    line-height: 80px;
     display: block;
     float: left;
     padding-left: 50px;
@@ -48,4 +52,18 @@ div#menu a:hover {
     height: 100%;
     background-color: purple;
     color: #666666;
+}
+
+div#content p{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+}
+
+div#content h3 {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkblue;
 }
