@@ -13,7 +13,7 @@ div#topbox {
 div#header {
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: darkblue;
     margin-top: 80px;
 }
 
@@ -24,7 +24,7 @@ div#header h1{
 div#menu {
     width: 850px;
     height: 80px;
-    background-color: hotpink;
+    background-color: whitesmoke;
     position:fixed;
     top: 0;
 }
@@ -33,7 +33,7 @@ div#content {
     margin-left: auto;
     margin-right: auto;
     width: 850px;
-    height:1200px;
+    height:1000px;
     background-color: #666;
     margin-top: 50px;
 }
@@ -50,7 +50,7 @@ div#menu a{
 
 div#menu a:hover {
     height: 100%;
-    background-color: purple;
+    background-color: blue;
     color: #666666;
 }
 
