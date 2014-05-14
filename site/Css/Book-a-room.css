@@ -82,9 +82,7 @@ div.leftside div{
     padding-top: 10px;
 }
 button {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    font-size: 30px;
     background-color: yellow;
     font-weight: bold;
 }
