@@ -1,35 +1,3 @@
-body {
-    background-color: black;
-}
-
-div#topbox {
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px;
-    height:160px;
-    background-color: black;
-}
-
-div#header {
-    width: 100%;
-    height: 100%;
-    background-color: darkblue;
-    margin-top: 80px;
-    background-image: url("../Pictures/header.png");
-}
-
-div#header h1{
-    color: white;
-}
-
-div#menu {
-    width: 850px;
-    height: 80px;
-    background-color: whitesmoke;
-    position:fixed;
-    top: 0;
-}
-
 div#content {
     margin-left: auto;
     margin-right: auto;
@@ -37,22 +5,6 @@ div#content {
     height:550px;
     background-color: #666;
     margin-top: 50px;
-}
-div#menu a{
-    text-decoration: none;
-    line-height: 80px;
-    display: block;
-    float: left;
-    padding-left: 50px;
-    padding-right: 56px;
-    color: black;
-}
-
-
-div#menu a:hover {
-    height: 100%;
-    background-color: blue;
-    color: #666666;
 }
 
 div#content p{

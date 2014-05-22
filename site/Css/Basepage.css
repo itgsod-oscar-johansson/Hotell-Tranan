@@ -8,6 +8,7 @@ div#topbox {
     width: 850px;
     height:160px;
     background-color: black;
+
 }
 
 div#header {
@@ -26,45 +27,22 @@ div#menu {
     width: 850px;
     height: 80px;
     background-color: whitesmoke;
-    position:fixed;
-    top: 0;
-
-}
-
-div#content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px;
-    height:950px;
-    background-color: #666;
-    margin-top: 50px;
+    position:fixed; /* Makes the menu always stay on the screen */
+    top: 0; /*Position top of the screen */
 }
 div#menu a{
     text-decoration: none;
     line-height: 80px;
-    display: block;
+    display: block; /* Gives the hover function a block to color */
     float: left;
     padding-left: 50px;
     padding-right: 56px;
     color: black;
 }
 
+/* Hover for the menu */
 div#menu a:hover {
     height: 100%;
     background-color: blue;
     color: #666666;
-}
-
-div#content p{
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: whitesmoke;
-}
-
-div#content h3 {
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: darkblue;
 }
