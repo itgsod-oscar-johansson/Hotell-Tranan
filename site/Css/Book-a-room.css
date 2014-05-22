@@ -1,34 +1,4 @@
-body {
-    background-color: black;
-}
 
-div#topbox {
-    margin-left: auto;
-    margin-right: auto;
-    width: 850px;
-    height:160px;
-    background-color: black;
-}
-
-div#header {
-    width: 100%;
-    height: 100%;
-    background-color: darkblue;
-    margin-top: 80px;
-    background-image: url("../Pictures/header.png");
-}
-
-div#header h1{
-    color: white;
-}
-
-div#menu {
-    width: 850px;
-    height: 80px;
-    background-color: whitesmoke;
-    position:fixed;
-    top: 0;
-}
 
 div#content {
     margin-left: auto;
@@ -37,22 +7,6 @@ div#content {
     height:1000px;
     background-color: #666;
     margin-top: 50px;
-}
-div#menu a{
-    text-decoration: none;
-    line-height: 80px;
-    display: block;
-    float: left;
-    padding-left: 50px;
-    padding-right: 56px;
-    color: black;
-}
-
-
-div#menu a:hover {
-    height: 100%;
-    background-color: blue;
-    color: #666666;
 }
 
 div#content p{
@@ -68,20 +22,21 @@ div#content h3 {
     padding-right: 10px;
     color: darkblue;
 }
-
+/* Floats pictures to the right side */
 div.rightside div{
     float: right;
     padding-right: 10px;
     padding-left: 5px;
     padding-top: 10px;
 }
-
+/* Floats pictures to the left side */
 div.leftside div{
     float: left;
     padding-right: 7px;
     padding-left: 10px;
     padding-top: 10px;
 }
+
 button {
     font-size: 30px;
     font-weight: bold;
@@ -89,6 +44,7 @@ button {
     margin-left: 10px;
 
 }
+/* A grow function for the button, it will make it grow */
 .grow {
     display: inline-block;
     -webkit-transition-duration: 0.3s;
@@ -103,4 +59,6 @@ button {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+/* Taken from http://ianlunn.github.io/Hover/ */
 
