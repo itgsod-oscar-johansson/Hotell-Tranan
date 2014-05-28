@@ -36,7 +36,7 @@ div#menu a{
     display: block; /* Gives the hover function a block to color */
     float: left;
     padding-left: 50px;
-    padding-right: 56px;
+    padding-right: 55px;
     color: black;
 }
 
