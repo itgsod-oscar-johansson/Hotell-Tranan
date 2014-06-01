@@ -10,10 +10,12 @@ div#content {
 }
 
 div#content p{
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     color: whitesmoke;
+    letter-spacing:1px;
+    font-style: italic;
 }
 
 div#content h3 {
@@ -21,6 +23,7 @@ div#content h3 {
     padding-left: 10px;
     padding-right: 10px;
     color: darkblue;
+    font-family: Tahoma;
 }
 /* Floats pictures to the right side */
 div.rightside div{
