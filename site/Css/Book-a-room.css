@@ -9,14 +9,8 @@ div#content {
     margin-top: 50px;
 }
 
-div#content p{
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: whitesmoke;
-    letter-spacing:1px;
-    font-style: italic;
-}
+
+
 
 div#content h3 {
     padding-top: 15px;

@@ -46,3 +46,12 @@ div#menu a:hover {
     background-color: blue;
     color: #666666;
 }
+
+p{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    letter-spacing:1px;
+    font-style: italic;
+}

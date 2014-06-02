@@ -7,14 +7,7 @@ div#content {
     background-color: #666;
     margin-top: 50px;
 }
-div#content p{
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: whitesmoke;
-    letter-spacing:1px;
-    font-style: italic;
-}
+
 
 div#content h3 {
     padding-top: 15px;
