@@ -48,10 +48,11 @@ div#menu a:hover {
 }
 
 p{
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     color: whitesmoke;
     letter-spacing:1px;
     font-style: italic;
+
 }
