@@ -38,3 +38,7 @@ body li{
     color: whitesmoke;
     font-size: 20px;
 }
+
+ul{
+    list-style: none;
+}
